@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvary Chapel Guatemala</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo no-margin no-padding" href="index.html">
+                    <h1 class="logo__nombre no-padding no-margin"><span class="logo__bold no-padding no-margin"> Calvary Chapel</span> <span class="TextMini no-padding no-margin">Los ocotes</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="donar.html" class="navegacion__enlace">Donar</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <main class="contenedor mediawidthdonar">
+          <!-- formulario de donación-->
+          <h3 class="centrar-texto"> Donación</h3>
+
+              <form class="formulario">
+                  
+                <div class="campo">
+                <!-- Form de Nombre-->
+                    <label class="campo__label" for="nombre"> Nombres:</label>
+                    <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre">
+                <!-- Form de Apellido-->
+                    <label class="campo__label" for="nombre"> Apellidos:</label>
+                    <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre">
+                </div>
+                  
+                <div class="campo">
+                    <!-- Form de correo-->
+                    <label class="campo__label" for="correo"> Correo:</label>
+                    <input class="campo__field" type="text" placeholder="tucorreo@correo.com" id="correo">
+                    <!-- Form de telefono-->
+                    <label class="campo__label" for="correo"> Teléfono:</label>
+                    <input class="campo__field" type="text"  id="correo">
+                  </div>
+                  <div class="campo__select">
+                <!-- Form de selecciona opcion-->
+                <center>
+                <label class="campo__label" for="mensaje"> Dolares ($):</label>
+                <select class="campo__field">
+                    <option value="1">-</option>
+                    <option value="2">10$</option>
+                    <option value="3">15$</option>
+                    <option value="3">20$</option>
+                    <option value="3">25$</option>
+                    <option value="3">30$</option>
+                </select>
+                <label class="campo__label" for="mensaje"> o Quetzales (Q):</label>
+                <select class="campo__field">
+                    <option value="1">-</option>
+                    <option value="2">Q.50.00</option>
+                    <option value="3">Q.80.00</option>
+                    <option value="3">Q.100.00</option>
+                    <option value="3">Q.150.00</option>
+                    <option value="3">Q.200.00</option>
+                </select>
+                </center>
+                </div>
+                  <div class="campo">
+                    <!-- Form de mensaje-->
+                    <label class="campo__label" for="mensaje"> Mensaje:</label>
+                    <textarea class="campo__field campo__field--textarea" id="mensaje"></textarea>
+                  </div>
+
+
+  
+                  <div class="campo">
+                      <input type="submit" value="Enviar" class="boton boton--primario">
+  
+                  </div>
+              </form>
+
+    </main>
+    <footer class="footerpage">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo no-margin no-padding" href="index.html">
+                    <h1 class="logo__nombre no-padding no-margin"><span class="logo__bold no-padding no-margin"> Calvary Chapel</span> <span class="TextMini no-padding no-margin">Los ocotes</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="donar.html" class="navegacion__enlace">Donar</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
